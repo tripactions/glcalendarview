@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/master.swiftdeps"
+  },
+  "/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/main.swift": {
+    "dependencies": "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.d",
+    "object": "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.swift.o",
+    "swiftmodule": "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.swiftdeps"
+  }
+}

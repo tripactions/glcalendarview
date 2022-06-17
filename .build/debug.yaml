@@ -1,0 +1,139 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "GLCalendarView-debug.exe": ["<GLCalendarView-debug.exe>"]
+  "GLCalendarView-debug.module": ["<GLCalendarView-debug.module>"]
+  "GLCalendarViewPackageTests-debug.test": ["<GLCalendarViewPackageTests-debug.test>"]
+  "GLCalendarViewTests-debug.module": ["<GLCalendarViewTests-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<GLCalendarView-debug.exe>","<GLCalendarView-debug.module>"]
+  "test": ["<GLCalendarView-debug.exe>","<GLCalendarView-debug.module>","<GLCalendarViewPackageTests-debug.test>","<GLCalendarViewTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/":
+    is-directory-structure: true
+  "/Users/afanaian/Documents/glcalendarview/Tests/GLCalendarViewTests/":
+    is-directory-structure: true
+commands:
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/AppDelegate.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.o"]
+    description: "Compiling GLCalendarView AppDelegate.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/AppDelegate.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Demo/GLCalendarViewDemoController.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.o"]
+    description: "Compiling GLCalendarView Demo/GLCalendarViewDemoController.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Demo/GLCalendarViewDemoController.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarDateRange.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.o"]
+    description: "Compiling GLCalendarView Sources/GLCalendarDateRange.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarDateRange.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarDayCell/GLCalendarDayCell.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.o"]
+    description: "Compiling GLCalendarView Sources/GLCalendarDayCell/GLCalendarDayCell.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarDayCell/GLCalendarDayCell.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.o"]
+    description: "Compiling GLCalendarView Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarMonthCoverView.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.o"]
+    description: "Compiling GLCalendarView Sources/GLCalendarMonthCoverView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarMonthCoverView.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarView.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.o"]
+    description: "Compiling GLCalendarView Sources/GLCalendarView.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLCalendarView.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLDateUtils.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.o"]
+    description: "Compiling GLCalendarView Sources/GLDateUtils.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/Sources/GLDateUtils.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/main.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.o"]
+    description: "Compiling GLCalendarView main.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.10","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarView","-I","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.d","-c","/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/main.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.d"
+
+  "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.o":
+    tool: clang
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Tests/GLCalendarViewTests/GLCalendarViewTests.m"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.o"]
+    description: "Compiling GLCalendarViewTests GLCalendarViewTests.m"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx11.0","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=GLCalendarViewTests","-I","/Users/afanaian/Documents/glcalendarview/Tests/GLCalendarViewTests/include","-fmodules-cache-path=/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/ModuleCache","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-MD","-MT","dependencies","-MF","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.d","-c","/Users/afanaian/Documents/glcalendarview/Tests/GLCalendarViewTests/GLCalendarViewTests.m","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.o"]
+    deps: "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.d"
+
+  "<GLCalendarView-debug.exe>":
+    tool: phony
+    inputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView"]
+    outputs: ["<GLCalendarView-debug.exe>"]
+
+  "<GLCalendarView-debug.module>":
+    tool: phony
+    inputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.o"]
+    outputs: ["<GLCalendarView-debug.module>"]
+
+  "<GLCalendarViewPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewPackageTests.xctest/Contents/MacOS/GLCalendarViewPackageTests"]
+    outputs: ["<GLCalendarViewPackageTests-debug.test>"]
+
+  "<GLCalendarViewTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.o"]
+    outputs: ["<GLCalendarViewTests-debug.module>"]
+
+  "C.GLCalendarView-debug.exe":
+    tool: shell
+    inputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/AppDelegate.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Demo/GLCalendarViewDemoController.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDateRange.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCell.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarDayCell/GLCalendarDayCellBackgroundCover.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarMonthCoverView.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLCalendarView.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/Sources/GLDateUtils.m.o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.build/main.m.o"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/GLCalendarView"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView","-module-name","GLCalendarView","-emit-executable","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarView.product/Objects.LinkFileList","-runtime-compatibility-version","none","-target","arm64-apple-macosx10.10","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.GLCalendarViewPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewTests.build/GLCalendarViewTests.m.o"]
+    outputs: ["/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewPackageTests.xctest/Contents/MacOS/GLCalendarViewPackageTests"]
+    description: "Linking ./.build/arm64-apple-macosx/debug/GLCalendarViewPackageTests.xctest/Contents/MacOS/GLCalendarViewPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-L","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug","-o","/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewPackageTests.xctest/Contents/MacOS/GLCalendarViewPackageTests","-module-name","GLCalendarViewPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewPackageTests.product/Objects.LinkFileList","-runtime-compatibility-version","none","-target","arm64-apple-macosx11.0","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/","/Users/afanaian/Documents/glcalendarview/Tests/GLCalendarViewTests/","/Users/afanaian/Documents/glcalendarview/Package.swift","/Users/afanaian/Documents/glcalendarview/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)"
+options: "61d1dff3e44ac44628af1dcf78fef820c64d1f68a86d6df29708990af5353dd9"
+build_start_time: [1655501461, 320268154]
+build_end_time: [1655501461, 860124111]
+inputs:
+  "/Users/afanaian/Documents/glcalendarview/Sources/GLCalendarView/main.swift": [1655501389, 547650814]

@@ -1,0 +1,23 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/afanaian/Documents/glcalendarview/.build/arm64-apple-macosx/debug/GLCalendarViewPackageTests.xctest/Contents/MacOS/GLCalendarViewPackageTests",
+      "productName" : "GLCalendarViewPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}
